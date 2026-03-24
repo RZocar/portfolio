@@ -297,7 +297,7 @@ ul { list-style: none; }
 
 .project-visual {
   position: relative;
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 16 / 9;
   background:
     linear-gradient(135deg, var(--bg-alt), #ddd6cb);
   display: flex;
