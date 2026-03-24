@@ -657,3 +657,10 @@ ul { list-style: none; }
   .contact-title { font-size: 3.5rem; }
   .site-footer { flex-direction: column; align-items: flex-start; }
 }
+
+/* DEBUG TRABAJOS: forzar 3 columnas sí o sí */
+#trabajos .projects-grid {
+  display: grid !important;
+  grid-template-columns: repeat(3, 1fr) !important;
+  gap: 0 !important;
+}
