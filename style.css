@@ -663,3 +663,17 @@ ul { list-style: none; }
   grid-template-columns: repeat(3, 1fr) !important;
   gap: 0 !important;
 }
+
+/* Miniatura barbería: ver la imagen completa */
+#trabajos .project:first-child .project-visual {
+  aspect-ratio: auto;      /* quitamos la relación fija */
+  background: #000;        /* fondo neutro */
+}
+
+#trabajos .project:first-child .project-visual img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+
