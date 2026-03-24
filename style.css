@@ -285,12 +285,15 @@ ul { list-style: none; }
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
+  max-width: 1100px;
+  margin: 0 auto;
   gap: 0;
   border-top: 0.5px solid var(--line);
   border-left: 0.5px solid var(--line);
 }
 
 .project {
+  max-width: none;
   border-right: 0.5px solid var(--line);
   border-bottom: 0.5px solid var(--line);
 }
