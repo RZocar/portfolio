@@ -300,7 +300,6 @@ ul { list-style: none; }
 
 .project-visual {
   position: relative;
-  aspect-ratio: 16 / 9;
   background:
     linear-gradient(135deg, var(--bg-alt), #ddd6cb);
   display: flex;
@@ -387,8 +386,8 @@ ul { list-style: none; }
 
 .project-visual img {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: auto%;
+  object-fit: contain;
   transition: transform 0.25s ease;
 }
 
