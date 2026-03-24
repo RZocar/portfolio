@@ -361,6 +361,35 @@ ul { list-style: none; }
   letter-spacing: 0.06em;
 }
 
+/* Miniatura viva dentro del proyecto */
+.project-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.project-thumb {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.project-thumb iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  transform-origin: center center;
+  transition: transform 0.25s ease;
+}
+
+/* Efecto zoom‑out al pasar el ratón */
+.project:hover .project-thumb iframe {
+  transform: scale(0.9);
+}
+
+
 /* PRICING */
 .pricing-wrap {
   display: grid;
