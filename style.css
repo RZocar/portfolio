@@ -398,13 +398,6 @@ ul { list-style: none; }
   color: inherit;
 }
 
-/* añadimos solo estas reglas extra para la imagen */
-.project-visual img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: transform 0.25s ease;
-}
 
 /* Zoom‑out suave al pasar el ratón */
 .project:hover .project-visual img {
